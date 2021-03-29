@@ -1,0 +1,299 @@
+/*footer start*/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.container{
+	
+}
+.right-right-container a{
+	float: right;
+    color: white;
+    margin-top: 3px;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    border: 1px;
+    border-color: #FE3C47;
+    border-style: solid;
+    background: #FE3C47;
+}
+.right-right-container i:hover{
+	color: black;
+}
+.right-right-container a i:hover{
+	color: black;
+}
+.top-bar-social{
+	float:left;
+}
+.left-container{
+	width: 43%;
+	height: 100%;
+	float:left;
+	margin-right:0px;
+	padding-right:0px;
+}
+.right-container{
+	width: 57%;
+	height: 100%;
+	float:right;
+	margin-left:0px;
+	padding-left:0px;
+}
+.left-right-container{
+	width: 50%;
+	height: 100%;
+	float:left
+}
+.right-right-container{
+	width: 50%;
+	height: 100%;
+	float:right
+}
+
+.boxModel{
+	width:49%;
+	height:100%;
+	background:#ffe6e6;
+	margin:0 2% 30px 0;
+	overflow: auto;
+}
+
+.pullRight{
+	float:right;
+	margin-right:0;
+}
+span{
+	color:#800000;
+	font:bold;
+}
+
+
+.glyphicon { margin-right:10px; }
+.panel-body {padding:20px 20px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+.left-container-donor-account{
+	width: 80%;
+	height: 100%;
+	float:left;
+	margin-right:0px;
+	padding-right:0px;
+}
+.right-container-donor-account{
+	width: 20%;
+	height: 100%;
+	float:right;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.sidenav{
+	height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #FE3C47; /*  */
+    overflow-x: hidden; /* Disable horizontal scroll */
+	float: right
+}
+.sidenav a {
+	margin: 10px 0px;
+    display: block;
+}
+
+.sidenav a i{
+    color: #fff;
+	padding-right:10px
+}
+
+.greenMessage{
+	background:#33ff33;
+	height:60px;
+	text-align:center;
+	border-radius:10px
+}
+.greenMessage p{
+	padding: 15px 0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 36px;
+	color:white;
+}
+.redMessage{
+	background:#FE3C47;
+	height:60px;
+	text-align:center;
+	border-radius:10px
+}
+.redMessage p{
+	padding: 15px 0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 36px;
+	color:white;
+}
